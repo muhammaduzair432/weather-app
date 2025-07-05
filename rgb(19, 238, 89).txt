@@ -1,0 +1,19 @@
+rgb(19, 238, 89)
+rgb(147, 250, 190)
+<input type="text" id="myInput" placeholder="Press Enter to submit" />
+<button id="myButton">Submit</button>
+
+<script>
+  const input = document.getElementById("myInput");
+  const button = document.getElementById("myButton");
+
+  input.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      button.click(); 
+    }
+  });
+
+  button.addEventListener("click", function () {
+    alert("Button clicked by Enter key!");
+  });
+</script>

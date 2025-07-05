@@ -1,0 +1,270 @@
+
+body{
+    background-color: rgb(104, 201, 144);
+   
+}
+.mainbody{
+     filter: blur(10px) brightness(0.9);
+}
+ 
+   
+ 
+
+
+
+main{
+     margin-top: 45px;
+     height: 78vh;
+     width: 34vw;
+     border: none;
+     background-color: rgb(147, 250, 190);
+     border-radius: 20px;
+     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.20);
+
+     
+}
+.main2{
+    display: flex;
+    justify-content: center;
+}
+/* searchbar */
+.searchbar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#searchinp{
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-radius:10px ;
+
+
+
+}
+button{
+    background: white;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(213, 226, 230);
+}
+input{
+    font-size: 25px;
+    border: none;
+    outline: none;
+    
+}
+input:hover{
+    cursor: pointer;
+    background-color:   rgb(213, 226, 230);;
+}
+::placeholder{
+    font-size: 20px;
+    padding-left: 7px;
+}
+/* error message */
+.errormessage{
+    display: none;
+    width: 250px;
+    height: 70px;
+    padding-left: 4px;
+    margin-left: 100px;
+    margin-top: 13px;
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    border: none;
+    background-color: white;
+    border-top-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+}
+/* weather images and text */
+.weatherimages{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.weathertext{
+    font-size: 50px;
+    padding-top: 25px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+/* weatherdetails */
+
+.weatherdetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    margin-top: 60px;
+}
+#humidity{
+    display: flex;
+    
+
+
+}
+#watertext{
+    font-size: 37px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#windspeed{
+    display: flex;
+}
+.windtext{
+     font-size: 37px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#cityname{
+    font-size: 30px;
+    font-family: 'sans-serif';
+}
+@media screen and (max-width: 424px) {
+    #searchinp{
+        width: 250px;
+    }
+    main{
+        width: 82vw;
+        height: 72vh;
+    }
+    .searchbar{
+        gap: 5px;
+    }
+    #scanbutton{
+        /* width: 40x; */
+        /* height: 40px; */
+        /* border-radius: 40%; */
+    }
+    #searchkey{
+        height: 25px;
+        width: 25px;
+    }
+    .weather-icon{
+        height: 150px;
+        width: 150px;
+    }
+    .weathertext{
+        font-size: 30px;
+    }
+    #water{
+        height: 60px;
+        width: 60px;
+    }
+    #watertext{
+        font-size: 20px;
+    }
+    #windpic{
+        height: 55px;
+        width: 55px;
+    }
+    .windtext{
+        font-size: 20px;
+    }
+    .weatherdetails{
+        gap: 40px;
+    }
+}
+@media  screen and (max-width:410px) {
+    main{
+        width: 90vw;
+        margin-left: 18px;
+    }
+    
+}
+@media  screen and (max-width:372px){
+    main{
+        width: 100vw;
+    }
+    #watertext{
+        font-size: 15px;
+    }
+    .windtext{
+        font-size: 15px;
+    }
+     #scanbutton{
+        height: 45px;
+        width: 45px;
+    }
+  
+    #searchinp{
+        width: 240px;
+    }
+
+}
+@media  screen and (max-width:330px){
+    #water{
+        height: 50px;
+        width: 50px;
+    }
+    #windpic{
+        height: 45px;
+        width: 45px;
+    }
+    #scanbutton{
+        height: 40px;
+        width: 40px;
+    }
+  
+    #searchinp{
+        width: 230px;
+    }
+
+}
+@media  screen and (max-width:338px){
+    main{
+        margin-right: 7px;
+    }
+     #scanbutton{
+        height: 43px;
+        width: 43px;
+    }
+  
+    #searchinp{
+        width: 233px;
+    }
+}
+@media screen and (max-width:327px){
+     #scanbutton{
+        height: 35px;
+        width: 35px;
+    }
+  
+    #searchinp{
+        width: 225px;
+    }
+}
+@media screen and (max-width:428px){
+   .windtext{
+    font-size: 20px;
+   }
+   #windpic{
+    height: 55px;
+    width: 55px;
+   }
+   #water{
+    height: 60px;
+    width: 60px;
+   }
+   main{
+    height: 74vh;
+   }
+}
