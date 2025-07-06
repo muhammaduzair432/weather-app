@@ -53,7 +53,7 @@ button{
 }
 button:hover{
     cursor: pointer;
-    background-color: rgb(213, 226, 230);
+    background-color: rgb(197, 219, 255);
 }
 input{
     font-size: 25px;
@@ -63,7 +63,7 @@ input{
 }
 input:hover{
     cursor: pointer;
-    background-color:   rgb(213, 226, 230);;
+    background-color: rgb(168, 233, 253);
 }
 ::placeholder{
     font-size: 20px;
@@ -139,7 +139,7 @@ input:hover{
     font-family: 'sans-serif';
 }
 @media screen and (max-width: 424px) {
-    #searchinp{
+    /* #searchinp{
         width: 250px;
     }
     main{
@@ -148,13 +148,13 @@ input:hover{
     }
     .searchbar{
         gap: 5px;
-    }
+    } */
     #scanbutton{
         /* width: 40x; */
         /* height: 40px; */
         /* border-radius: 40%; */
     }
-    #searchkey{
+    /* #searchkey{
         height: 25px;
         width: 25px;
     }
@@ -181,10 +181,10 @@ input:hover{
     }
     .weatherdetails{
         gap: 40px;
-    }
+    } */
 }
 @media  screen and (max-width:410px) {
-    main{
+    /* main{
         width: 90vw;
         margin-left: 18px;
     }
@@ -207,11 +207,11 @@ input:hover{
   
     #searchinp{
         width: 240px;
-    }
+    } */
 
 }
 @media  screen and (max-width:330px){
-    #water{
+    /* #water{
         height: 50px;
         width: 50px;
     }
@@ -226,11 +226,11 @@ input:hover{
   
     #searchinp{
         width: 230px;
-    }
+    } */
 
 }
 @media  screen and (max-width:338px){
-    main{
+    /* main{
         margin-right: 7px;
     }
      #scanbutton{
@@ -250,10 +250,10 @@ input:hover{
   
     #searchinp{
         width: 225px;
-    }
+    } */
 }
 @media screen and (max-width:428px){
-   .windtext{
+   /* .windtext{
     font-size: 20px;
    }
    #windpic{
@@ -266,7 +266,7 @@ input:hover{
    }
    main{
     height: 74vh;
-   }
+   } */
 }
 @media  screen and (max-width:1831px){
     main{
@@ -357,8 +357,8 @@ input:hover{
 }
 @media  screen and (max-width:1280px){
       .weather-icon{
-        height: 220px;
-        width: 220px;
+        height: 200px;
+        width: 200px;
     }
      .weatherdetails{
         gap: 75px;
@@ -375,5 +375,201 @@ input:hover{
     .searchbar{
         gap: 10px;
     }
-    
+    .weathertext{
+        font-size: 35px;
+    }
+    .weatherdetails{
+        gap: 60px;
+    }
 } 
+@media  screen and (max-width:1111px){
+     #searchinp{
+        width: 280px;
+    }
+    #watertext{
+        font-size: 20px;
+    }
+}
+@media  screen and (max-width:1048px){
+   #searchinp{
+    width: 270px;
+   }
+   button{
+    height: 45px;
+    width: 45px;
+   }
+   #searchkey{
+    height: 25px;
+    width: 25px;
+   }
+   .weatherdetails{
+    gap: 40px;
+   }
+}
+@media  screen and (max-width:1003px){
+   #windpic{
+    height: 50px;
+    width: 50px;
+   }
+   #water{
+    height: 55px;
+    width: 55px;
+   }
+   #searchinp{
+    width: 250px;
+   }
+   .windtext{
+    font-size: 18px;
+   }
+}
+@media  screen and (max-width:937px){
+   main{
+    width: 38vw;
+   }
+}
+@media  screen and (max-width:832px){
+    main{
+    width: 42vw;
+   }
+}
+@media  screen and (max-width:761px){
+    main{
+        width: 46vw;
+    }
+}
+@media  screen and (max-width:698px){
+    main{
+        width: 50vw;
+    }
+}
+@media  screen and (max-width:643px){
+    main{
+        width: 54vw;
+    }
+}
+@media  screen and (max-width:590px){
+     main{
+        width: 58vw;
+    }
+}
+@media  screen and (max-width:548px){
+  main{
+    width: 62vw;
+  }
+}
+@media  screen and (max-width:590px){
+    .weather-icon{
+        height: 180px;
+        width: 180px;
+    }
+    .weathertext{
+        font-size: 30px;
+    }
+    main{
+        width: 66vw;
+    }
+
+}
+@media  screen and (max-width:487px){
+    main{
+        width: 78vw;
+    }
+
+}
+@media  screen and (max-width:411px){
+   main{
+    width: 82vw;
+   }
+}
+@media  screen and (max-width:390px){
+  main{
+    width: 86vw;
+  }
+  #searchinp{
+    width: 240px;
+  }
+}
+@media  screen and (max-width:372px){
+   main{
+    width: 90vw;
+   }
+}
+@media  screen and (max-width:356px){
+   main{
+    width: 94vw;
+    margin-right: 15px;
+   }
+   #windtext{
+    font-size: 15px;
+   }
+   #watertext{
+    font-size: 15px;
+   }
+   #searchinp{
+    width: 220px;
+   }
+}
+@media  screen and (max-width:324px){
+    main{
+        width: 100vw;
+    }
+    .weather-icon{
+        height: 150px;
+        width: 150px;
+    }
+}
+@media  screen and (max-width:297px){
+  .weatherdetails{
+    gap: 30px;
+  }
+   .errormessage{
+    margin-right: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+   }
+   #error{
+    height: 15px;
+    width: 15px;
+   }
+}
+@media  screen and (max-width:1619px){
+  .errormessage{
+    width: 200px;
+    height: 60px;
+    padding-left: 3px;
+    margin-left: 60px;
+  }
+}
+@media  screen and (max-width:1469px){
+   .errormessage{
+    margin-left: 50px;
+    width: 170px;
+    height: 55px;
+    font-size: 18px;
+   }
+ }
+ @media  screen and (max-width:1000px){
+   .errormessage{
+    margin-left: 40px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+   }
+   #error{
+    height: 20px;
+    width: 20px;
+   }
+ }
+ @media  screen and (max-width:284px){
+     .errormessage{
+        margin-left: 30px;
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+     }
+     #error{
+        height: 15px;
+        width: 15px;
+     }
+ }
