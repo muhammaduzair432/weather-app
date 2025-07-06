@@ -271,7 +271,7 @@ input:hover{
 @media  screen and (max-width:1831px){
     main{
     
-        height: 63vh;
+        height: 85vh;
     }
     .windtext{
         font-size: 33px;
@@ -341,10 +341,10 @@ input:hover{
     .weatherdetails{
         gap: 75px;
     }
-    main{
+    /* main{
         height: 58vh;
         
-    }
+    } */
      #windpic{
     height: 55px;
     width: 55px;
