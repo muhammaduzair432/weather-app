@@ -268,3 +268,112 @@ input:hover{
     height: 74vh;
    }
 }
+@media  screen and (max-width:1831px){
+    main{
+    
+        height: 63vh;
+    }
+    .windtext{
+        font-size: 33px;
+    }
+    
+}
+@media  screen and (max-width:1797px){
+  .windtext{
+    font-size: 31px;
+  }
+}
+@media  screen and (max-width:1769px){
+   .windtext{
+    font-size: 27px;
+  }
+}
+@media  screen and (max-width:1727px){
+     .windtext{
+    font-size: 24px;
+  }
+  #watertext{
+    font-size: 27px;
+  }
+}
+@media  screen and (max-width:1727px){
+    .windtext{
+        font-size: 20px;
+    }
+    #watertext{
+    font-size: 24px;
+  }
+}
+@media  screen and (max-width:1467px){
+   #windpic{
+    height: 70px;
+    width: 70px;
+   }
+   #water{
+    height: 80px;
+    width: 80px;
+   }
+    #searchinp{
+    width: 350px;
+   }
+}
+@media  screen and (max-width:1381px){
+    .weather-icon{
+        height: 250px;
+        width: 250px;
+    }
+    .weatherdetails{
+        gap: 90px;
+    }
+
+}
+@media  screen and (max-width:1247px){
+    #searchinp{
+        width: 330px;
+    }
+    .weather-icon{
+        height: 220px;
+        width: 220px;
+    }
+    .weathertext{
+        font-size: 40px;
+    }
+    .weatherdetails{
+        gap: 75px;
+    }
+    main{
+        height: 58vh;
+        
+    }
+     #windpic{
+    height: 55px;
+    width: 55px;
+   }
+   #water{
+    height: 60px;
+    width: 60px;
+   }
+    
+}
+@media  screen and (max-width:1280px){
+      .weather-icon{
+        height: 220px;
+        width: 220px;
+    }
+     .weatherdetails{
+        gap: 75px;
+    }
+     #searchinp{
+        width: 310px;
+    }
+    
+}
+@media  screen and (max-width:1170px){
+    #searchinp{
+        width: 300px;
+    } 
+    .searchbar{
+        gap: 10px;
+    }
+    
+} 
