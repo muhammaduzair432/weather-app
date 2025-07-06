@@ -271,7 +271,7 @@ input:hover{
 @media  screen and (max-width:1831px){
     main{
     
-        height: 90vh;
+        /* height: 90vh; */
     }
     .windtext{
         font-size: 33px;
@@ -484,6 +484,7 @@ input:hover{
 @media  screen and (max-width:390px){
   main{
     width: 86vw;
+    height: 90vh;
   }
   #searchinp{
     width: 240px;
